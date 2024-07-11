@@ -1,0 +1,12 @@
+import datetime
+x = datetime.datetime.now()
+print(x)
+y=datetime.datetime(1997,10,14)
+print(y)
+print(y.strftime("%A"))
+print(y.strftime("%a"))
+print(y.strftime("%B"))
+print(y.strftime("%b"))
+print(y.strftime("%m"))
+print(y.strftime("%Y"))
+print(y.strftime("%y"))
